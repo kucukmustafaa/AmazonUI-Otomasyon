@@ -1,0 +1,8 @@
+# Urunu Sepete ekle.
+* click with id "add-to-cart-button"
+* "200" milisaniye bekle.
+
+# Hemen Satin al.
+* click with id "buy-now-button"
+* "200" milisaniye bekle.
+

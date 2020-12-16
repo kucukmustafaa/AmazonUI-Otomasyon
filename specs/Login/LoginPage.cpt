@@ -1,0 +1,32 @@
+# Email alanini <text> degerini gir.
+* "ap_email" id'li elementine <text> degerini yaz.
+* "200" milisaniye bekle.
+
+# Email sayfasi devam et butonuna tikla.
+* click with id "continue"
+* "200" milisaniye bekle.
+
+# Password alanini <text> degerini gir.
+* "ap_password" id'li elementine <text> degerini yaz.
+* "200" milisaniye bekle.
+
+# Giris yap butonuna tikla.
+* click with id "signInSubmit"
+* "200" milisaniye bekle.
+
+
+# Email <email> ve Password <password> degerini gir ve giris butonuna tıkla.
+* Email alanini <email> degerini gir.
+* Email sayfasi devam et butonuna tikla.
+* Password alanini <password> degerini gir.
+* Giris yap butonuna tikla.
+
+
+# Login işlemi basarili oldugunda success mesaji cikiyormu kontrol et
+* "//ul[@class='a-unordered-list a-nostyle a-vertical a-spacing-none']//li//span[@class='a-list-item']" xpath 'li elementi "Your password is incorrect" degerini iceriyormu kontrol et.
+* "200" milisaniye bekle.
+
+
+# Login işlemi basarisiz oldugunda error mesaji cikiyormu kontrol et
+* "//ul[@class='a-unordered-list a-nostyle a-vertical a-spacing-none']//li//span[@class='a-list-item']" xpath 'li elementi "Your password is incorrect" degerini iceriyormu kontrol et.
+* "200" milisaniye bekle.

@@ -1,0 +1,8 @@
+# Arama alanina <text> degerini yaz ve ara.
+* "twotabsearchtextbox" id'li elementine <text> degerini yaz.
+* click with cssSelector "span>input[class='nav-input']"
+
+# Giriş sayfasina Sayfasına git.
+* focus click with id "nav-link-accountList"
+* click with xpath "//div[@id='nav-flyout-ya-signin']//span"
+
